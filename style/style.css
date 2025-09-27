@@ -1,0 +1,20 @@
+*{
+   margin: 0;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#subtitle{
+    background-color: blue;
+    color: yellow;
+    /* margin: 50px; */
+    /* margin-top: 100px;
+    margin-right: 12px;
+    margin-bottom: 150px;
+    margin-left: 50px; */
+    /* margin: 100px 12px 150px 50px ; */
+    margin: 25px 100px;
+text-align: center;
+}
