@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lay out</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            padding: 15px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            border: 5px solid yellow;
+        }
+        nav{
+            padding: 20px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            border: 5px solid blue;
+            margin: 30px 0px;
+        }
+        main, p{
+            padding: 15px;
+        }
+        article{
+            float: left;
+            width: 33.333333%;
+            border:5px solid green;
+            background-color: whitesmoke;
+        }
+        .articles{
+            background-color: gray ;
+        }
+        footer{
+            clear: left;
+            background-color: black;
+            color: white;
+            padding:15px ;
+            margin-top: 30px;
+            border: 5px solid yellow;
+            text-align: center;
+        }
+        h3{
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        the header
+    </header>
+    <nav>
+        the navigation
+    </nav>
+    <h2>Articles</h2>
+    <main>
+        <article class="articles">
+            <h3>article 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim doloremque nostrum atque eos ullam quam est
+                beatae reiciendis ut sequi voluptas alias exercitationem expedita nobis, architecto maxime! Quos, cum
+                dicta.</p>
+        </article>
+        <article>
+            <h3>article 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim doloremque nostrum atque eos ullam quam est
+                beatae reiciendis ut sequi voluptas alias exercitationem expedita nobis, architecto maxime! Quos, cum
+                dicta.</p>
+        </article>
+        <article class="articles">
+            <h3>article 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim doloremque nostrum atque eos ullam quam est
+                beatae reiciendis ut sequi voluptas alias exercitationem expedita nobis, architecto maxime! Quos, cum
+                dicta.</p>
+        </article>
+    </main>
+    <footer>
+        the footer
+    </footer>
+</body>
+
+</html>

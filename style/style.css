@@ -18,3 +18,7 @@ h1{
     margin: 25px 100px;
 text-align: center;
 }
+p{
+    padding: 15px;
+    border: 1px solid black;
+}
